@@ -20,6 +20,7 @@
         <div class="row">
             <div class="col-12">
                 <?php if($datos->num_rows > 0) {?>
+                    <div class></div>
                     <table class="table table-hover">
                         <thead>
                             <tr>
@@ -33,25 +34,32 @@
                             </tr>
                         </thead>
                        <tbody>
-
+                        <?php
+                        while($registro = $datos->fetch_assoc()){ ?>
+                        <tr>
+                            <td><?php echo $registro["id"]; ?></td>
+                            <td><?php echo $registro["nombre"]; ?></td>
+                            <td><?php echo $registro["numero_control"]; ?></td>
+                            <td><?php echo $registro["semestre"]; ?></td>
+                            <td><?php echo $registro["edad"]; ?></td>
+                            <td><?php echo $registro["turno"]; ?></td>
+                            <td><?php echo $registro["sexo"]; ?></td>
+                            <td>
+                                <a href="" class="btn btn-sm btn-primary">Editar</a>
+                                <a href="" class="btn btn-sm btn-primary">Eliminar</a>
+                            </td> 
+                        </tr>
+                       <?php } ?>
                        </tbody>
                     </table>
-                                
-                            
+                                         
                <?php } else{?>
                 <h2>No existe datos de alumnos en la base de datos</h2>
 
                <?php } ?>
-              
-               
-
             </div>
         </div> 
      </div>
-
-    
-
-
 
     <footer class="text-center">
         <hr>
