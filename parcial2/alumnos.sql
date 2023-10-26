@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 19-10-2023 a las 04:10:13
+-- Tiempo de generación: 26-10-2023 a las 04:42:33
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -43,7 +43,14 @@ CREATE TABLE `alumnos` (
 
 INSERT INTO `alumnos` (`id`, `nombre`, `numero_control`, `semestre`, `edad`, `turno`, `sexo`) VALUES
 (1, 'Apodaca Morales Hasly Kamila', '21325061070423', 5, 17, 'vespertino', 0),
-(2, 'Rodriguez Zúñiga Daneila Lizzette', '21325061070423', 5, 17, 'vespertino', 0);
+(2, 'Rodriguez Zúñiga Daneila Lizzette', '21325061070423', 5, 17, 'vespertino', 0),
+(3, 'Castro Samaniego Evelyn Melissa', '21325061070308', 5, 17, 'Vespertino', 0),
+(4, 'Beltran Duarte Paulet Mariana', '21325061070363', 5, 17, 'Vespertino', 0),
+(5, 'Casas Valdez Carol Elizabeth', '21325061070570', 5, 17, 'Vespertino', 0),
+(6, 'Lopez Sainz Sergio Octavio', '21325061070217', 5, 17, 'Vespertino', 1),
+(7, 'Perez Rojas Angel Eduardo', '21325061070376', 5, 17, 'Vespertino', 1),
+(8, 'Apodaca Morales Hasly Kamila', '21325061070324', 5, 17, 'VESPERTINO', 0),
+(9, 'dulce', '21325061071020', 4, 10, 'MATUTINO', 2);
 
 --
 -- Índices para tablas volcadas
@@ -63,7 +70,7 @@ ALTER TABLE `alumnos`
 -- AUTO_INCREMENT de la tabla `alumnos`
 --
 ALTER TABLE `alumnos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
