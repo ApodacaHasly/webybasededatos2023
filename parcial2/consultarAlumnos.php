@@ -45,8 +45,8 @@
                             <td><?php echo $registro["turno"]; ?></td>
                             <td><?php echo $registro["sexo"]; ?></td>
                             <td>
-                                <a href="" class="btn btn-sm btn-primary">Editar</a>
-                                <a href="" class="btn btn-sm btn-primary">Eliminar</a>
+                                <a href="EditarAlumnos.php?id=<?php echo $registro["id"]; ?>" class="btn btn-sm btn-primary">Editar</a>
+                                <a href="EliminarAlumnos.php?id=<?php echo $registro["id"]; ?>" class="btn btn-sm btn-primary">Eliminar</a>
                             </td> 
                         </tr>
                        <?php } ?>
