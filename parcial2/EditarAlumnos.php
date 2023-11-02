@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-12 card m-4 p-4">
                 <h2>Registar Alumnos</h2><br>
-                <form action="actualizarRegistro.php" method="POST">
+                <form action="ActualizarAlumnos.php" method="POST">
                 <input  type="hidden" name="id" value="<?php echo $alumno["id"]; ?>">
                     <div class="form-group">
                         <label for="">Nombre:</label>
