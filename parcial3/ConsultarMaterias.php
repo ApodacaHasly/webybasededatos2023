@@ -43,8 +43,8 @@
                                     
                                    
                                     <td>
-                                        <a href=""  class="btn btn-sm btn-primary">Editar</a>
-                                        <a href="" class="btn btn-sm btn-danger">Eliminar</a>
+                                         <a href="EditarMaterias.php?id=<?php echo $registro["id"]; ?>"  class="btn btn-sm btn-primary">Editar</a>
+                                        <a href="eliminarMaterias.php?id=<?php echo $registro["id"]; ?>" class="btn btn-sm btn-danger">Eliminar</a>
                                     </td>
                                 </tr>
                             <?php } ?>
