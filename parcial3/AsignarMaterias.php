@@ -21,8 +21,8 @@
         <div class="row">
             <div class="col-12">
                 <h2>Asignar Materias a alumnos</h2><br>
-                <form action="">
-                <select name="alumno" class="form-control">
+                <form action="GuardarAsignacion.php" method="POST">
+                <select name="alumnos" class="form-control">
                 <?php 
                 if($datos_alumnos->num_rows > 0){ 
                      while($registro = $datos_alumnos->fetch_assoc()){
@@ -40,7 +40,7 @@
                     <p><input type="checkbox" name="materias[]" value="<?php echo $registro["id"]; ?>"><?php echo $registro["nombre"];?></p>
                 <?php } } ?>
                 <div>
-                    <input type="submint" class="btn btn-primary" value="Asignar">
+                    <input type="submit" class="btn btn-primary" value="Asignar">
                     <a href="" class="btn btn-danger">Cancelar</a>
                 </div>
                 </form>
