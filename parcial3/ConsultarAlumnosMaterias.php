@@ -28,7 +28,7 @@
 
                     <div class="card">
                         <div class="card-header">
-                            <?php echo $registro["nombre"]; ?>
+                            Nombre:<?php echo $registro["nombre"]; ?>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Materias Cargadas:</h5>

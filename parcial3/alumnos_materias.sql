@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 15-11-2023 a las 03:15:56
+-- Tiempo de generación: 23-11-2023 a las 03:16:28
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -41,7 +41,28 @@ INSERT INTO `alumnos_materias` (`id`, `alumnos_id`, `materia_id`) VALUES
 (1, 1, 1),
 (2, 3, 3),
 (3, 7, 7),
-(4, 2, 5);
+(4, 2, 5),
+(5, 4, 1),
+(6, 4, 2),
+(7, 4, 4),
+(8, 5, 5),
+(9, 5, 6),
+(10, 5, 7),
+(11, 5, 8),
+(12, 6, 1),
+(13, 6, 2),
+(14, 6, 3),
+(15, 6, 4),
+(16, 6, 5),
+(17, 6, 6),
+(18, 6, 7),
+(19, 6, 8),
+(20, 9, 1),
+(21, 9, 2),
+(22, 9, 4),
+(23, 9, 6),
+(24, 9, 7),
+(25, 9, 8);
 
 --
 -- Índices para tablas volcadas
@@ -61,7 +82,7 @@ ALTER TABLE `alumnos_materias`
 -- AUTO_INCREMENT de la tabla `alumnos_materias`
 --
 ALTER TABLE `alumnos_materias`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

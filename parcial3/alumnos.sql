@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-10-2023 a las 04:42:33
+-- Tiempo de generación: 23-11-2023 a las 03:16:39
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -49,7 +49,6 @@ INSERT INTO `alumnos` (`id`, `nombre`, `numero_control`, `semestre`, `edad`, `tu
 (5, 'Casas Valdez Carol Elizabeth', '21325061070570', 5, 17, 'Vespertino', 0),
 (6, 'Lopez Sainz Sergio Octavio', '21325061070217', 5, 17, 'Vespertino', 1),
 (7, 'Perez Rojas Angel Eduardo', '21325061070376', 5, 17, 'Vespertino', 1),
-(8, 'Apodaca Morales Hasly Kamila', '21325061070324', 5, 17, 'VESPERTINO', 0),
 (9, 'dulce', '21325061071020', 4, 10, 'MATUTINO', 2);
 
 --
